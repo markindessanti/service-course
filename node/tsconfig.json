@@ -2,7 +2,7 @@
   "compilerOptions": {
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
-    "target": "es2017",
+    "target": "es2019",
     "module": "commonjs",
     "moduleResolution": "node",
     "allowJs": false,
@@ -15,6 +15,11 @@
   },
   "typeAcquisition": {
     "enable": false
+  },
+  "paths": {
+	"vtex.backend-course": [
+	  "/cache/link/link_appliancetheme_markindessanti/vtex.backend-course@0.0.2/public/@types/vtex.backend-course"
+	]
   },
   "include": ["./**/*.ts"],
   "exclude": ["node_modules"]
